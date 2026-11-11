@@ -1,0 +1,8 @@
+import math
+x = float(input())
+xrad = math.radians(x)
+sinx = math.sin(xrad)
+cosx = math.cos(xrad)
+tanx = math.tan(xrad)
+y = sinx + cosx + tanx**2
+print(y)
