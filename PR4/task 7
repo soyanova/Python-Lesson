@@ -1,0 +1,7 @@
+import math
+x = int(input())
+if 1 <= x <= 36:
+    y = (x - 1) // 4 + 1
+    print(y)
+else:
+    print("Ошибка, данный номер некорректен")
