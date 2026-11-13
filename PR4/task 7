@@ -1,4 +1,5 @@
 import math
+seats_per_compartment = 4
 seat = int(input("Введите номер места: "))
-coupe = (seat - 1) // 4 + 1
-print(coupe)
+coupe = (seat - 1) // seats_per_compartment + 1
+print("Номер Вашего купе:", coupe)
