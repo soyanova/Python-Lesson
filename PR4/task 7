@@ -1,4 +1,4 @@
 import math
-x = int(input())
-y = (x - 1) // 4 + 1
-print(y)
+seat = int(input("Введите номер места: "))
+coupe = (seat - 1) // 4 + 1
+print(coupe)
