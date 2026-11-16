@@ -1,0 +1,8 @@
+import math
+tax_rate = 0.13
+tax = float(input("Введите годовой доход одним числом."))
+sum = tax * tax_rate
+sum_without_tax = tax - sum
+print(f"Общая сумма дохода: {tax:.2f} руб.")
+print(f"Сумма рассчитанного дохода: {sum:.2f} руб.")
+print(f"Сумма 'на руки' после вычета налога: {sum_without_tax:.2f} руб.")
