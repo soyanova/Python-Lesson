@@ -1,0 +1,11 @@
+import math
+USD_TO_RUB = 95.50
+# Конвертирует доллары в рубли.
+def convert_usd_to_rub(amount_usd):
+    # Параметры функции.
+    # amount_usd (float) : сумма в долларах.
+    # Возвращает сумму в рублях.
+    return amount_usd * USD_TO_RUB
+usd_amount = float(input("Введите сумму в долларах."))
+rub_amount = convert_usd_to_rub(usd_amount)
+print(f"{usd_amount:.2f} USD = {rub_amount:,.2f} RUB.")
