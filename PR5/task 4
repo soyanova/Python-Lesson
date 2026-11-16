@@ -1,0 +1,16 @@
+import math
+def calculate_rectangle(width, height):
+    # Вычисляет площадь прямоугольника.
+    # Параметры:
+        # Width (float): ширина прямоугольника.
+        # Height (float): высота прямоугольника.
+    # Возвращает:
+    # float: площадь прямоугольника (width * height).
+    return width * height
+def calculate_circle(radius):
+    # Вычисляет площадь круга.
+    # Параметры:
+        # radius (float): радиус круга.
+    # Возвращает:
+    # float: площадь круга (math.pi * radius ** 2)
+    return math.pi * radius ** 2
